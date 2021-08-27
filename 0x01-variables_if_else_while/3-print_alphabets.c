@@ -1,9 +1,9 @@
 #include <stdio.h>
  /**
-  * main -  prints the alphabet in lowercase, and then in uppercase
-  * description - uses for loop
-  * Return: Always 0 (Success)
-  */
+* main -  prints the alphabet in lowercase, and then in uppercase
+* description - uses 2 for loop statments
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 char ch = 'a';
