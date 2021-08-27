@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <time.h>
 /**
  * main -  prints the alphabet in lowercase
  * description - output depends on the condition
@@ -7,9 +6,9 @@
  */
 int main(void)
 {
-char ch = 'a';
-for (ch='a'; ch<='z'; ch++)
-putchar (ch);
+char c = 'a';
+for (c='a'; c<='z'; c++){
+putchar (c);}
 putchar ('\n');
 return 0;
 }
