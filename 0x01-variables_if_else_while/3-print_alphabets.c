@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - alphabet in lowercase, and then in uppercase
- * description - uses while statement
+ * description - uses 2 for statement
  * Return: Always 0 (Success)
  */
 int main(void)
