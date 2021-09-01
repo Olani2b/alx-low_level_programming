@@ -11,9 +11,9 @@ int i;
 char j;  
 for ( i = 0; i < 10; i++)
 {
-for ( j = 'a'; c <= 'z'; c++)
+for ( j = 'a'; j <= 'z'; j++)
 {
-_putchar(c);
+_putchar(j);
 }
 _putchar('\n');
 }
