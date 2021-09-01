@@ -1,5 +1,5 @@
 #include "main.h"
-#include <std.io>
+#include <stdio.h>
 /**
  * add - add the values of a and b
  * @a: an integer
