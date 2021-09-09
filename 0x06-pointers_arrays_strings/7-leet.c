@@ -1,33 +1,22 @@
 #include "main.h"
 /**
- * rot13 - encodes a string by simple letter substitution.
- * It replaces a letter with the 13th letter after it, in the alphabet.
- * @s: the string to encode
+ * leet - encode a string into 1337
+ * @s: the string to create 1337
  *
- * Return: the encoded message
+ * Return: Encoded string
  */
-char *rot13(char *s)
+char *leet(char *s)
 {
 int i, x;
-char input[] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
-'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
-'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g',
-'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
-'s', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-char rotate[] = {'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X',
-'Y', 'Z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I',
-'J', 'K', 'L', 'M', 'n', 'o', 'p', 'q', 'r', 's', 't',
-'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e',
-'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'};
+char make1337[] = {'4', '3', '0', '7', '1'};
+char lower[] = {'a', 'e', 'o', 't', 'l'};
+char upper[] = {'A', 'E', 'O', 'T', 'L'};
 for (i = 0; s[i] != '\0'; i++)
 {
-for (x = 0; x < 52; x++)
+for (x = 0; x < 5; x++)
 {
-if (s[i] == input[x])
-{
-s[i] = rotate[x];
-x = 52;
-}
+if ((s[i] == lower[x]) || (s[i] == upper[x]))
+(s[i] = make1337[x]);
 }
 }
 return (s);
