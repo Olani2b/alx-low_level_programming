@@ -18,7 +18,7 @@ printf("Error\n");
 return (1);
 }
 for (i = 1; i < argc; i++)
-product = product * atoi(argv[i]);
+product = product *atoi(argv[i]);
 printf("%i\n", product);
 return (0);
 }

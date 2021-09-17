@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 /**
  * main - a program that prints the minimum number of coins to make chnage for
  * an amount of money
