@@ -1,9 +1,9 @@
-#include "lists.h"
+#include <stdio.h>
+void __attribute__((constructor)) hare(void);
 /**
- * before - print before main.
+ * hare - prints a string before the
  */
-void before(void) __attribute__ ((constructor));
-void before(void)
+void hare(void)
 {
 printf("You're beat! and yet, you must allow,\n"
 "I bore my house upon my back!\n");
